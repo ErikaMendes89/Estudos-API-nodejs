@@ -22,4 +22,7 @@ Instale as dependências do projeto:<br><br>
 Após a instalação das dependências, você pode iniciar o servidor com o seguinte comando:<br><br>
 `node app.js` <br><br>
 A aplicação será executada na porta 3000. Você pode acessar a aplicação em seu navegador via http://localhost:3000/products.
+<br><br><br>
+
+![VulcanSaluteSpockGIF](https://github.com/user-attachments/assets/9f0d7039-f18f-4b8e-ab6e-d009bb5efa86)
 
