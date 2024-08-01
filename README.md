@@ -24,5 +24,26 @@ Após a instalação das dependências, você pode iniciar o servidor com o segu
 A aplicação será executada na porta 3000. Você pode acessar a aplicação em seu navegador via http://localhost:3000/products.
 <br><br><br>
 
+## O código:
+
+~~~javascript
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/products', (req, res) => {
+    const products = [
+        {id: 1, name: 'Hammer'},
+        {id: 2, name: 'Screwdriver'},
+        {id: 3, name: 'Wrench'},
+    ];
+
+    res.json(products);
+});
+
+app.listen(port, () => console.log(`Example app listening on port ${port}! http://localhost:${port}/`));
+~~~
+
+
 ![VulcanSaluteSpockGIF](https://github.com/user-attachments/assets/9f0d7039-f18f-4b8e-ab6e-d009bb5efa86)
 
